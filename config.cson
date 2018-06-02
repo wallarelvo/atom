@@ -1,0 +1,101 @@
+"*":
+  Hydrogen: {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#5c6bc0"
+      genAccent: true
+      paintCursor: true
+      predefinedColor: "Indigo"
+    fonts:
+      fontSize: 18
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+      stretchedTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+      useAnimations: false
+  "atom-terminal":
+    app: "/bin/zsh"
+  "bracket-matcher":
+    autocompleteBrackets: false
+    highlightMatchingLineNumber: true
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "docker"
+      "busy-signal"
+      "linter"
+      "linter-ui-default"
+      "Hydrogen"
+      "symbols-view"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-terminal"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+  editor:
+    scrollPastEnd: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
+  "ex-mode": {}
+  "exception-reporting":
+    userId: "74ad0fab-27fa-4135-9063-062f124bafcc"
+  "fuzzy-finder":
+    searchAllPanes: true
+  "go-plus":
+    config: {}
+    format: {}
+    guru:
+      highlightIdentifiers: false
+    lint:
+      args: [
+        "--vendor"
+        "--disable-all"
+        "--enable=vet"
+        "--enable=vetshadow"
+        "--enable=golint"
+        "--enable=ineffassign"
+        "--enable=goconst"
+        "--tests"
+        "--json"
+      ]
+    test:
+      runTestsOnSave: false
+  linter:
+    disabledProviders: [
+      "golint"
+    ]
+    lintOnChange: false
+  "linter-ui-default":
+    panelHeight: 207
+    showPanel: true
+  "seti-ui":
+    compactView: true
+    themeColor: "Purple"
+  "symbols-tree-view":
+    autoToggle: true
+  "symbols-view-plus":
+    plusConfigurations:
+      symbolsViewTheme: "Modal Panel (like atom/symbols-view)"
+  "terminal-plus":
+    core:
+      shell: "/bin/zsh"
+    style: {}
+    toggles: {}
+  "tidy-tabs":
+    accessedThreshold: 10
+    minimumTabs: 1
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    tabType: "hard"

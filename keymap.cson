@@ -1,0 +1,21 @@
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+    'shift-h': 'window:focus-pane-on-left'
+    'shift-l': 'window:focus-pane-on-right'
+    'shift-j': 'window:focus-pane-below'
+    'shift-k': 'window:focus-pane-above'
+    'ctrl-l': 'vim-mode-plus:next-tab'
+    'ctrl-h': 'vim-mode-plus:previous-tab'
+    'g c c': 'editor:toggle-line-comments'
+    'f5': 'golang:toggle-panel'
+    'f3': 'golang:find-usage'
+    # 'atom-text-editor[data-grammar~="go"]:not([mini])':
+    'f4': 'golang:showdoc'
+    'shift-t': 'atom-terminal:open'
+    'ctrl-f': 'symbols-view-plus:toggle-file-symbols'
+    '/': 'find-and-replace:show'
+'atom-workspace':
+    'ctrl-f': 'symbols-view-plus:toggle-file-symbols'
+    'ctrl-n': 'tree-view:add-file'
+    
+'.platform-linux atom-dock':
+  'ctrl-r': 'symbols-view-plus:toggle-file-symbols'
